@@ -19,7 +19,7 @@ Provides:
   - collectd
 Scaling:
   Min: 1
-  Max: 1
+  Max: -1
 Cart-Data:
   - Key: OPENSHIFT_COLLECTD_PUBLIC_SERVER_PORT 
 Endpoints:
