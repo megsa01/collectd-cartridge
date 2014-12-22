@@ -19,13 +19,9 @@ Provides:
   - collectd
 Scaling:
   Min: 1
-  Max: -1
+  Max: 1
 Cart-Data:
   - Key: OPENSHIFT_COLLECTD_PUBLIC_SERVER_PORT 
-Group-Overrides:
-  - components:
-    - collectd-5.4.1
-    - web_framework
 Endpoints:
   - Private-IP-Name: PRIVATE_IP
     Private-Port-Name: PRIVATE_PORT
