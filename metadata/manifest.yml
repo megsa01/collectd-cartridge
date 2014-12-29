@@ -9,6 +9,8 @@ Source-Url: git@github.com:megsa01/collectd-cartridge.git
 Cartridge-Version: "0.0.2"
 Cartridge-Vendor: megsa01
 Categories:
+  - service
+  - database
   - embedded
   - plugin
 Website: http://collectd.org
