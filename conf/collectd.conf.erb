@@ -29,7 +29,7 @@ LoadPlugin memory
 
 LoadPlugin write_http
 <Plugin "write_http">
-	<URL "http://<%=ENV['OPENSHIFT_GEAR_DNS']%>/ca-saas/odata/<%=ENV['APP_INSTANCE_ID']%>/collectd/<%=ENV['OPENSHIFT_GEAR_UUID']%>">
+	<URL "http://<%=ENV['SERVICE_REGISTRY_HOSTNAME']%>/ca-saas/appscaler/<%=ENV['APP_INSTANCE_ID']%>/collectd/<%=ENV['OPENSHIFT_GEAR_UUID']%>">
 		Format "JSON"
 	</URL>
 </Plugin>
