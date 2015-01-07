@@ -3,7 +3,7 @@
 
 
 HOSTNAME="${COLLECTD_HOSTNAME:-localhost}"
-INTERVAL="${COLLECTD_INTERVAL:-10}"
+INTERVAL="${COLLECTD_INTERVAL:-30}"
 
 prev_total=0
 prev_idle=0
