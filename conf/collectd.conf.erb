@@ -22,10 +22,10 @@ LoadPlugin exec
   Exec "<%=ENV['USER']%>" "<%=ENV['OPENSHIFT_COLLECTD_DIR']%>scripts/openshift.sh"
 </Plugin>
 
-LoadPlugin cpu
-LoadPlugin load
-LoadPlugin disk
-LoadPlugin memory
+#LoadPlugin cpu
+#LoadPlugin load
+#LoadPlugin disk
+#LoadPlugin memory
 
 LoadPlugin write_http
 <Plugin "write_http">
