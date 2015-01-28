@@ -2,8 +2,22 @@ conn_time           value:GAUGE:0:U
 gear_connections    established:GAUGE:0:U, time_wait:GAUGE:0:U, closed_wait:GAUGE:0:U, listening:GAUGE:0:U
 gear_memory         used:GAUGE:0:U, max_used:GAUGE:0:U, limit:GAUGE:0:U
 
-gear_cpu_user       user:COUNTER:0:U
-gear_cpu_sys        sys:COUNTER:0:U
-
 cpu_util            value:GAUGE:0:U
 disk_iops           value:GAUGE:0:U
+
+cpu_util_percent    value:GAUGE:0:U
+io_kb_read          value:GAUGE:0:U
+io_kb_written       value:GAUGE:0:U
+
+used_memory         value:GAUGE:0:U
+limit_memory        value:GAUGE:0:U
+max_memory          value:GAUGE:0:U
+free_memory         value:GAUGE:0:U
+
+gear_cpu_user       value:GAUGE:0:U
+gear_cpu_system     value:GAUGE:0:U
+
+used_disk_space     value:GAUGE:0:U
+limit_disk_space    value:GAUGE:0:U
+number_of_files     value:GAUGE:0:U
+limit_numberof_files   value:GAUGE:0:U
